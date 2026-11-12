@@ -1,0 +1,20 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: sans-serif; }
+body { transition: 0.3s; padding: 20px; }
+.sang { background: #f4f7f6; color: #333; min-height: 100vh; }
+.toi { background: #1e1e1e; color: #eee; min-height: 100vh; }
+.khung-chua { max-width: 800px; margin: 0 auto; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.sang .khung-chua { background: #fff; }
+.toi .khung-chua { background: #2a2a2a; }
+header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #ddd; padding-bottom: 15px; margin-bottom: 20px; }
+.nhom-nhap { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
+input, select, button { padding: 8px; border: 1px solid #ccc; border-radius: 4px; outline: none; }
+.toi input, .toi select { background: #333; color: #fff; border-color: #555; }
+button { background: #007bff; color: white; cursor: pointer; border: none; font-weight: bold; }
+button:hover { background: #0056b3; }
+.nut-xoa { background: #dc3545; }
+.nut-xoa:hover { background: #c82333; }
+.muc-chi-tieu { display: flex; justify-content: space-between; padding: 12px; border-bottom: 1px solid #eee; align-items: center; }
+.toi .muc-chi-tieu { border-bottom-color: #444; }
+.tong-tien { font-size: 1.2rem; font-weight: bold; text-align: right; margin-top: 20px; }
+.loi { color: red; margin-bottom: 10px; font-size: 0.9rem; }
+.thong-ke { margin-top: 15px; font-size: 0.95rem; text-align: right; color: gray; }
