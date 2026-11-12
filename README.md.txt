@@ -1,17 +1,16 @@
 # Bài thực hành 03 (N2) - Lập trình Web
 
-**Họ và tên:** Lê Tiến Mạnh  
-**Mã sinh viên:** B25DCTV055  
-**Lớp:** Trí tuệ nhân tạo vạn vật (AIoT - D25) - PTIT  
+**Họ và tên:Lê Tiến Mạnh  
+**Mã sinh viên:B25DCTV055    
 
 ## Cấu trúc thư mục
-- `part-a-class/`: Ứng dụng Sổ chi tiêu viết bằng React Class Component.
-- `part-b-hooks/`: Ứng dụng Sổ chi tiêu viết lại bằng React Function Component và Hooks.
+- `Phần A/`: Ứng dụng Sổ chi tiêu viết bằng React Class Component.
+- `Phần B/`: Ứng dụng Sổ chi tiêu viết lại bằng React Function Component và Hooks.
 
 ## Cách chạy dự án
 Yêu cầu hệ thống: Node.js (Sinh viên đang sử dụng v24.20.0).
 1. Clone repo này về máy.
-2. Di chuyển vào từng thư mục (`cd part-a-class` hoặc `cd part-b-hooks`).
+2. Di chuyển vào từng thư mục (`cd "Phần A"` hoặc `cd "Phần B"`).
 3. Chạy lệnh `npm install` để cài đặt dependencies (Vite, React).
 4. Chạy lệnh `npm run dev` để khởi động server cục bộ.
 
